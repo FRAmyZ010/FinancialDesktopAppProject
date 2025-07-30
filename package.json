@@ -1,0 +1,27 @@
+{
+  "name": "financialdesktopappproject",
+  "version": "1.0.0",
+  "description": "A desktop application for managing your income, expenses, and financial goals.  \r Built using [Electron.js](https://www.electronjs.org/), HTML, CSS, and JavaScript.",
+  "main": "index.js",
+  "scripts": {
+  "start": "electron .",
+  "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FRAmyZ010/FinancialDesktopAppProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FRAmyZ010/FinancialDesktopAppProject/issues"
+  },
+  "homepage": "https://github.com/FRAmyZ010/FinancialDesktopAppProject#readme",
+  "devDependencies": {
+    "electron": "^37.2.4"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
