@@ -13,6 +13,9 @@ It also aims to support recording investment activities, promote financial disci
 Additionally, this is my very first solo project.  
 If there are any mistakes or oversights, I sincerely apologize and genuinely welcome all feedback and suggestions for improvement.
 
+> ⚠️ **Please note:**  
+> This is only an initial idea, and **many changes may occur** in future development.
+
 
 ## 🎯 Features
 
@@ -31,37 +34,34 @@ If there are any mistakes or oversights, I sincerely apologize and genuinely wel
 
 | Field       | Type     | Description                   |
 |-------------|----------|-------------------------------|
-| `id`        | string   | Unique transaction ID         |
+| `id`        | int   | Unique transaction ID         |
 | `type`      | string   | `"income"` or `"expense"`     |
 | `amount`    | number   | Amount of money               |
-| `category`  | string   | Category (e.g., food, travel) |
-| `note`      | string   | Optional notes                |
+| `account_id`  | string   | Category (e.g., food, travel) |
+| `user_id`      | string   | Optional notes                |
 | `date`      | string   | Date of transaction           |
-| `account_id`| string   | Reference to `account.id`     |
+
+---
+
+### `User` table
+
+| Field            | Type     | Description                    |
+|------------------|----------|--------------------------------|
+| `user_id`             | int   | Unique user ID              |
+| `user_name`           | string   | Name     |
+| `balance`           | int   | |
+
 
 ---
 
 ### `account` table
 
-| Field            | Type     | Description                    |
-|------------------|----------|--------------------------------|
-| `id`             | string   | Unique account ID              |
-| `name`           | string   | Name (e.g., "Cash", "SCB")     |
-| `type`           | string   | `"cash"`, `"bank"`, `"wallet"` |
-| `bank_id`        | string   | Reference to `bank.id`         |
-| `account_number` | string   | Optional account number        |
-
----
-
-### `bank` table
-
 | Field       | Type     | Description                        |
 |-------------|----------|------------------------------------|
-| `id`        | string   | Bank ID (e.g., `ktb`, `scb`)       |
-| `name`      | string   | Full bank name                     |
-| `short_name`| string   | Short name or abbreviation         |
-| `logo_url`  | string   | Path to bank logo                  |
-| `color`     | string   | Branding color (hex format)        |
+| `account_id`        | int   |        |
+| `user_id`      | int   |                    |
+| `balance`| int   |          |
+| `account_name`  | string   |                   |
 
 ---
 <img width="901" height="607" alt="image" src="https://github.com/user-attachments/assets/b0bf6fe7-a696-4bf9-89c3-5175733b83a9" />
@@ -84,4 +84,4 @@ If there are any mistakes or oversights, I sincerely apologize and genuinely wel
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/personal-finance-app.git
+   git clone https://github.com/FRAmyZ010/FinancialDesktopAppProject.git
