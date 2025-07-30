@@ -84,4 +84,4 @@ If there are any mistakes or oversights, I sincerely apologize and genuinely wel
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/personal-finance-app.git
+   git clone https://github.com/FRAmyZ010/FinancialDesktopAppProject.git
