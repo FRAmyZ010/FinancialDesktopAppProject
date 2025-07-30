@@ -71,6 +71,7 @@ If there are any mistakes or oversights, I sincerely apologize and genuinely wel
 ## 📦 Technologies Used
 
 - [Electron.js](https://www.electronjs.org/)
+- [Express.js](https://expressjs.com/)
 - HTML, CSS, JavaScript
 - [Chart.js](https://www.chartjs.org/) – For visual reports
 - [xlsx](https://www.npmjs.com/package/xlsx) – For Excel export
