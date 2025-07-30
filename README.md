@@ -13,6 +13,9 @@ It also aims to support recording investment activities, promote financial disci
 Additionally, this is my very first solo project.  
 If there are any mistakes or oversights, I sincerely apologize and genuinely welcome all feedback and suggestions for improvement.
 
+> ⚠️ **Please note:**  
+> This is only an initial idea, and **many changes may occur** in future development.
+
 
 ## 🎯 Features
 
