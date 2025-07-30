@@ -5,6 +5,15 @@ Built using [Electron.js](https://www.electronjs.org/), HTML, CSS, and JavaScrip
 
 ---
 
+## 🔍 Concept
+
+The core idea behind this project is to create a personal finance management and tracking tool — all in one place.  
+It also aims to support recording investment activities, promote financial discipline, and encourage consistent tracking habits.
+
+Additionally, this is my very first solo project.  
+If there are any mistakes or oversights, I sincerely apologize and genuinely welcome all feedback and suggestions for improvement.
+
+
 ## 🎯 Features
 
 - Record income and expenses
