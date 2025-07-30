@@ -64,6 +64,9 @@ If there are any mistakes or oversights, I sincerely apologize and genuinely wel
 | `color`     | string   | Branding color (hex format)        |
 
 ---
+<img width="901" height="607" alt="image" src="https://github.com/user-attachments/assets/b0bf6fe7-a696-4bf9-89c3-5175733b83a9" />
+---
+
 
 ## 📦 Technologies Used
 
