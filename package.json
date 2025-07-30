@@ -2,7 +2,7 @@
   "name": "financialdesktopappproject",
   "version": "1.0.0",
   "description": "A desktop application for managing your income, expenses, and financial goals.  \r Built using [Electron.js](https://www.electronjs.org/), HTML, CSS, and JavaScript.",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
   "start": "electron .",
   "test": "echo \"Error: no test specified\" && exit 1"
