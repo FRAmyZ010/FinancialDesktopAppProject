@@ -76,6 +76,7 @@ If there are any mistakes or oversights, I sincerely apologize and genuinely wel
 - [Chart.js](https://www.chartjs.org/) – For visual reports
 - [xlsx](https://www.npmjs.com/package/xlsx) – For Excel export
 - [LowDB](https://www.npmjs.com/package/lowdb) or local JSON for data storage
+- [SQLite](https://www.sqlite.org/)
 
 ---
 
