@@ -1,3 +1,5 @@
+July 30, 2025
+
 # Personal Finance Management App
 
 A desktop application for managing your income, expenses, and financial goals.  
