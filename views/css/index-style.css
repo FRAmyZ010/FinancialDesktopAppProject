@@ -1,0 +1,21 @@
+:root{
+    --green:#00BC2C;
+    --black:#000000;
+    --blue:#0066FF;
+
+    --gray:#C3C3C3;
+    --white:#D9D9D9;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-text{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
