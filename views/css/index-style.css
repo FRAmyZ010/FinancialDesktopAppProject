@@ -8,14 +8,11 @@
 }
 
 .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-items: center;
 }
 
-.welcome-text{
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+.login-box{
+    justify-items: center;
+
 }
+
